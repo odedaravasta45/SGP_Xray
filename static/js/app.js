@@ -1,0 +1,1 @@
+const input=document.getElementById('xray');const name=document.getElementById('filename');if(input){input.addEventListener('change',()=>{name.textContent=input.files.length?`Selected: ${input.files[0].name}`:''})}

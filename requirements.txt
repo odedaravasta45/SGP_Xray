@@ -1,0 +1,7 @@
+Django>=5.1,<6.1
+Pillow>=10.0
+numpy>=1.26
+opencv-python-headless>=4.10
+# Install the PyTorch build appropriate for your CPU/GPU from pytorch.org.
+torch>=2.2
+torchvision>=0.17
